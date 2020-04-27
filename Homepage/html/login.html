@@ -1,0 +1,22 @@
+		<h2 class="form-signin-heading">Please sign in</h2>
+		
+		<label for="inputEmail" class="sr-only">EMail address</label>
+		<input type="email" maxlength="50" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		
+		<label for="inputPassword" class="sr-only">Password</label>
+		<input type="password" maxlength="250" name="passwort" id="inputPassword" class="form-control" placeholder="Password" required>
+		
+		<div class="checkbox">
+		  <label>
+			<input type="checkbox" name="angemeldet_bleiben" value="remember-me"> Remember me
+		  </label>
+		</div>
+		
+		<div class="form-group">
+			<div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITEKEY_HERE" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+		</div>
+		
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		
+		<br />
+		<a href="register.php">... or register here</a>

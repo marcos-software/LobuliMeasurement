@@ -1,0 +1,16 @@
+		<h2 class="form-signin-heading">Registration</h2>
+		
+		<label for="inputEmail" class="sr-only">EMail address</label>
+		<input type="email" maxlength="50" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		<br />
+		<label for="inputPassword" class="sr-only">Password</label>
+		<input type="password" maxlength="250" name="passwort" id="inputPassword" class="form-control" placeholder="Password" required>
+		
+		<label for="inputPassword2" class="sr-only">Repeat password</label>
+		<input type="password" maxlength="250" name="passwort2" id="inputPassword2" class="form-control" placeholder="Repeat password" required>
+		
+		<div class="form-group">
+			<div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITEKEY_HERE" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+		</div>
+		
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>

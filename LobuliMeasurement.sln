@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobuliMeasurement", "LobuliMeasurement\LobuliMeasurement.csproj", "{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Debug|x64.ActiveCfg = Debug|x64
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Debug|x64.Build.0 = Debug|x64
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Release|x64.ActiveCfg = Release|x64
+		{4C8808A6-674B-4B5D-8B1E-E5E15ADE6042}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48B3D8EE-FEE6-4ABC-A4E1-0E050C579CC3}
+	EndGlobalSection
+EndGlobal

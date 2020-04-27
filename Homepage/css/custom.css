@@ -1,0 +1,86 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+	padding: 0rem;
+}
+
+
+
+
+.rowWarning {
+  background-color: #F0AD4E !important;  
+}
+
+.rowError {
+  background-color: #D9534F !important;
+  color: white !important;
+}
+
+.rowException {
+  background-color: #337AB7 !important;
+  color: white !important;
+}
+
+.rowWtf {
+  background-color: #777777 !important;
+  color: white !important;
+}
+
+
+.label {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.alert-danger {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.alert-success {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type='email'] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type='password'] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
